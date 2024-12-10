@@ -1,0 +1,65 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(248, 219, 219) 0%,
+    rgb(229, 248, 250) 90%
+  );
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+header {
+  margin-bottom: 30px;
+}
+form {
+  padding: 30px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(216, 241, 230, 0.46) 0.1%,
+    rgba(233, 226, 226, 0.28) 90.1%
+  );
+  border-radius: 10px;
+  display: flex;
+}
+.text {
+  border-radius: 50px;
+  background: linear-gradient(
+    90.7deg,
+    rgb(255, 253, 218) 1.9%,
+    rgb(246, 210, 255) 39.3%,
+    rgb(152, 222, 254) 64.7%,
+    rgb(251, 255, 210) 100.8%
+  );
+}
+.submit {
+  border-radius: 60px;
+  background: radial-gradient(
+    250px at 10.9% 48.6%,
+    rgb(194, 227, 255) 39.3%,
+    rgb(226, 196, 253) 72.5%
+  );
+  margin-left: 30px;
+}
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #363b4e;
+}
+a {
+  color: #22b2da;
+}
+.poem {
+  font-size: 14px;
+  background: #f8e7e7;
+  padding: 20px;
+  line-height: 24px;
+  border-left: 3px solid #22b2da;
+}
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+}

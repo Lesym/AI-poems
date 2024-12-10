@@ -7,29 +7,34 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header><h1>POEM GENERATOR</h1></header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter topic of the poem"
-          autofocus
-          required
-        />
-        <input type="submit" />
-        <div>
+    <div class="container">
+      <header><h1>AI POEM GENERATOR</h1></header>
+
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="text"
+          />
+          <input type="submit" class="submit" />
+        </form>
+        <div id="poem" class="poem">
           the poem will go here
           <br />
           the poem will go here
         </div>
-      </form>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Lesym"> Lesydia M</a> and is open sourced on
-      <a href="https://github.com/Lesym/AI-poems">github</a> and is hosted on
-      <a href="https://poemaigenerator.netlify.app/">Netlify</a>
-    </footer>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Lesym"> Lesydia M</a> and is open sourced on
+        <a href="https://github.com/Lesym/AI-poems">github</a> and is hosted on
+        <a href="https://poemaigenerator.netlify.app/">Netlify</a>
+      </footer>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
