@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Lesydia AI poem generator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -11,7 +12,7 @@
       <header><h1>AI POEM GENERATOR</h1></header>
 
       <main>
-        <form>
+        <form id="poem-form">
           <input
             type="text"
             placeholder="Enter topic of the poem"
@@ -23,9 +24,7 @@
           <input type="submit" class="submit" />
         </form>
         <div id="poem" class="poem">
-          the poem will go here
           <br />
-          the poem will go here
         </div>
       </main>
       <footer>
