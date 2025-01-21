@@ -1,14 +1,13 @@
-//alert("GOD");
 function generatePoem(event) {
   event.preventDefault();
 
   new Typewriter("#poem", {
-    strings: "God is good",
+    strings: "La tombe dit à la rose",
     autoStart: true,
-    delay: 100,
+    delay: 1,
     cursor: "",
   });
 }
 
-let poemFormElement = document.querySelector("#poem-form");
+let poemFormElement = document.querySelector("#poem-generator-form");
 poemFormElement.addEventListener("submit", generatePoem);
